@@ -1,4 +1,4 @@
-const STRIPE_TEST_SECRET_KEY = "sk_test_7ejhGftaNv6YKX1TGUoyrDOS00EKq9xr9j"//your Stripe key here
+const STRIPE_TEST_SECRET_KEY = ""//your Stripe key here
 const stripe = require('stripe')(STRIPE_TEST_SECRET_KEY);
 
 //express middleware
